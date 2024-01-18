@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/todayMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/oneDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+   />
+
+    <TextView
+        android:id="@+id/twoDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/threeDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/fourDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/fiveDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/sixDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/sevenDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/eightDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/nineDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/tenDayBeforeMobileUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/todayWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/oneDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/twoDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/threeDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/fourDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/fiveDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/sixDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/sevenDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/eightDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/nineDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/tenDayBeforeWifiUsedDataSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+    />
+
+</LinearLayout>
