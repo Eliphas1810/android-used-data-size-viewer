@@ -4,15 +4,17 @@
 
 This android appli displays used data size.
 
-But this android appli does not display roaming, ethernet, VPN, WiMAX.
+But I do not know that this android appli will display WiMAX.
 
 *Public Domain.*
 
 ## 概要
 
-　データ使用量をLTEとWi-Fiに分けて直近11日間の各1日分を表示するアンドロイドのスマホのアプリです。
+　データ使用量をLTEなどのモバイル通信とWi-Fiに分けて直近11日間の各1日分を表示するアンドロイドのスマホのアプリです。
 
-　ただし、ローミング、有線LANのイーサネット、VPN、Wi-Fiと似た無線のWiMAXなどのデータ使用量は表示しないので、ご注意ください。
+　ちなみに、Wi-Fiと同様である、WiMAXのプログラム コードを追加した所、NullPointerExceptionが発生してしまったため、追加したコードを削除しました。
+
+　そのため、WiMAXはWi-Fiに含まれていると思うのですが、開発者は現在WiMAXを利用していないため、未確認です。
 
 　*パブリック ドメインです。*
 
