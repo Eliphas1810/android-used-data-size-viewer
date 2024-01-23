@@ -6,7 +6,7 @@
 
     <string name="update">更新</string>
 
-    <string name="mobile">LTE</string>
+    <string name="mobile">モバイル通信</string>
     <string name="wifi">Wi-Fi</string>
 
     <string name="giga_bytes">ギガバイト</string>
