@@ -13,6 +13,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import java.math.RoundingMode
 import java.text.DecimalFormat
 import java.text.SimpleDateFormat
 import java.util.*
@@ -25,9 +26,10 @@ class MainActivity : AppCompatActivity() {
         try {
             val networkStatsManager = getSystemService(Context.NETWORK_STATS_SERVICE) as NetworkStatsManager
 
-            val simpleDateFormat: SimpleDateFormat = SimpleDateFormat("yyyy/MM/dd")
+            val simpleDateFormat = SimpleDateFormat("yyyy/MM/dd")
 
-            val decimalFormat: DecimalFormat = DecimalFormat("###0.000")
+            val decimalFormat = DecimalFormat("0.000")
+            decimalFormat.roundingMode = RoundingMode.UP
 
             val nowCalendar: Calendar = Calendar.getInstance()
 
