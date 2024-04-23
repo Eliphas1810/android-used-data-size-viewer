@@ -1,6 +1,6 @@
 # android-used-data-size-viewer
 
-## overview
+## Overview
 
 This android appli displays used data size.
 
