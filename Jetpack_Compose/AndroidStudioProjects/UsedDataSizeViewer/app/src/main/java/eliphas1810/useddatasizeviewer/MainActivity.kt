@@ -243,6 +243,7 @@ fun BuildView() {
 
         val gigaBytesLabel = context.getString(R.string.giga_bytes)
 
+        val license = context.getString(R.string.license)
 
         Surface(
             modifier = Modifier.fillMaxSize()
@@ -588,6 +589,8 @@ fun BuildView() {
                     Spacer(Modifier.size(10.dp))
                     Text(text = gigaBytesLabel)
                 }
+                Spacer(Modifier.size(10.dp))
+                Text(text = license)
             }
         }
     }
