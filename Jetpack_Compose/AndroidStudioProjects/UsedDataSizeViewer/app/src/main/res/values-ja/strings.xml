@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UsedDataSizeViewer</string>
+
+    <string name="denied_to_access_usage_status">使用状況へのアクセス権限の許可が無いので、当アプリは使用データ容量の表示ができません。当アプリを終了してください。</string>
+
+    <string name="update">更新</string>
+
+    <string name="mobile">携帯通信</string>
+    <string name="wifi">Wi-Fi</string>
+
+    <string name="giga_bytes">ギガ</string>
+</resources>
