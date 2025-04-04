@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UsedDataSizeViewer</string>
+
+    <string name="denied_to_access_usage_status">Now this application does not have the permission to access usage status. So this applicatiopn can not display used data size. Please finish this application.</string>
+
+    <string name="update">Update</string>
+
+    <string name="mobile">Mobile</string>
+    <string name="wifi">Wi-Fi</string>
+
+    <string name="giga_bytes">GB</string>
+</resources>
